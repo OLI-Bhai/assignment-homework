@@ -1,0 +1,384 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+
+
+.suru {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    height: 44px;
+    width: 164px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #469165;
+    margin-top: 24px;
+}
+
+.topicon {
+    /* border: 1px solid tomato; */
+    display: flex;
+    height: 60px;
+    width: 139px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.topicon div {
+    font-size: 8px;
+    color: #001931;
+}
+
+.kv img {
+    padding-bottom: 3px;
+}
+
+.kv {
+    margin: 5px 5px 4px 9.75px;
+
+}
+
+.top {
+    /* border: 1px solid tomato; */
+    display: flex;
+    height: 24px;
+    width: 365px;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.top div {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+    color: #000000;
+}
+
+.picher-shobi {
+    display: flow-root;
+    max-width: 1600px;
+    width: 100%;
+    /* min-height: 600px; */
+    background-image: url("images/backgroundhandimage.png");
+}
+
+.erly {
+    width: 229px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-top: 115.5px;
+}
+
+.mathar-content {
+    text-align: center;
+
+}
+
+.majher-lekha h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.majher-lekha h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #469165;
+}
+
+.majher-lekha p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+
+
+.vault-lekha {
+    /* border: 1px solid white; */
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 179.5px;
+}
+
+.lekha {
+    font-size: 16px;
+    font-weight: 600;
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    background-color: #469165;
+}
+
+.pora {
+    font-size: 16px;
+    font-weight: 600;
+
+    width: 198px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background: none;
+}
+
+.majh {
+    max-width: 1600px;
+    width: 100%;
+
+}
+
+.majh-h1 {
+    text-align: center;
+}
+
+.majh-h1 h1 {
+    font-size: 52px;
+    font-size: 700;
+    color: #001931;
+    margin-top: 55px;
+}
+
+.majh-h1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.majh-img {
+    /* border: 1px solid tomato; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.majh-img div {
+    /* border: 1px solid black; */
+    width: 322px;
+
+    height: 300px;
+
+}
+
+.majh-img div img {
+    margin-top: 69.5px;
+}
+
+
+.majh-img div h2 {
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+
+}
+
+.majh-img div p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+.design {
+    /* border: 1px solid tomato; */
+    max-width: 1600px;
+    width: 100%;
+}
+
+.design-container {
+    /* border: 1px solid tomato; */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 120px;
+}
+
+.design-lekha {
+    /* border: 1px solid tomato; */
+    height: 396px;
+    width: 700px;
+    margin-top: 102px;
+}
+
+.design-lekha h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+
+.design-lekha h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 16px;
+}
+
+.p-lekha p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.cheak-lekha p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin-top: 16px;
+}
+
+.fa-circle-check {
+    color: #30B868;
+}
+
+.ready {
+    /* border: 1px solid tomato; */
+    max-width: 1600px;
+    width: 100%;
+}
+
+.ready-container {
+    /* border: 1px solid tomato; */
+
+    text-align: center;
+    margin-top: 120px;
+}
+
+.ready-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    counter-reset: #001931;
+    margin-top: 40px;
+}
+
+.ready-join {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.get {
+    font-size: 16px;
+    font-weight: 600;
+    width: 194px;
+    height: 52px;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    background-color: #469165;
+    margin-top: 24px;
+}
+
+.ready-free {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.sesh {
+    box-sizing: border-box;
+    display: flow-root;
+    /* border: 1px solid tomato; */
+    max-width: 1600px;
+    width: 100%;
+    background-color: #001931;
+    margin-top: 200px;
+}
+
+.sas {
+    align-items: center;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    height: 64px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.oli {
+    color: #ffffff;
+}
+
+.icon-container {
+    margin-right: 107px;
+}
+
+.icon-container h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.sesh-icon {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.sesh-container hr {
+    border: 1px solid #e5e7eb2c;
+    width: 1360px;
+    margin-top: 80px;
+    margin-left: 120px;
+
+}
+
+.khatam {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fafafadc;
+    /* border: 1px solid #30B868; */
+
+    width: 1360px;
+    height: 24px;
+    text-align: center;
+    margin: 30px auto;
+}
