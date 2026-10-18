@@ -20,6 +20,11 @@
     justify-content: space-around;
 }
 
+.all:hover {
+    color: goldenrod;
+    background-color: #001931;
+}
+
 .btn {
     border: none;
     border-radius: 4px;
